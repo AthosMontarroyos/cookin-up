@@ -7,6 +7,7 @@
        desperta o chefe que há em você!
      </P>
      <p class="subtitulo-lg">
+        
     explore novas receitas todos os dias que estão ao se alcance!
      </p>
     </div>
