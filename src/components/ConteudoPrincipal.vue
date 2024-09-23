@@ -4,5 +4,5 @@ export default {}
 
 
 <template>
-    aaaaaaaa
+    Contéudo Principal
 </template>
