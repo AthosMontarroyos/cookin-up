@@ -3,16 +3,16 @@ import {obterCategorias } from '@/http/index';
 import type ICategoria from '@/interfaces/ICategoria'
 
 
+
 export default {
     data(){
         return {
             categorias: [] as ICategoria[]
         }
     },
-    async created(){
-      this.categorias = await obterCategorias();
-    }
-    
+    async created() {
+      this.categorias = await obterCategorias();  
+    },
 }
 </script>
 
@@ -24,7 +24,7 @@ export default {
 
         <ul class="categorias">
             <li v-for="categoria in categorias" :key="categoria.nome" >
-                {{ categoria.nome }}
+               <CardCategoria />
             </li>
         </ul>
 
