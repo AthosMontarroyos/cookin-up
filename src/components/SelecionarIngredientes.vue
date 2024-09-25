@@ -9,7 +9,7 @@ export default {
             categorias: [] as ICategoria[]
         }
     },
-    async created() {
+    async created(){
       this.categorias = await obterCategorias();
     }
     
