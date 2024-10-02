@@ -1,18 +1,20 @@
 <template>
-<header class="banner">
+  <header class="banner">
     <div class="apresentacao">
-     <img src="../assets/images/logo.svg" alt="Logo cookin up" class="logo">
-     <p class="cabecalho-lg">
-       <span class="texto-verde">Um banquete de ideias para</span>
-       desperta o chefe que há em você!
-     </P>
-     <p class="subtitulo-lg">
-        
-    explore novas receitas todos os dias que estão ao se alcance!
-     </p>
+      <img src="../assets/imagens/logo.svg" alt="Logo do Cookin' Up" class="logo">
+
+      <p class="cabecalho-lg frase-cabecalho">
+        <span class="texto-verde">Um banquete de ideias para</span>
+        despertar o chef que há em você!
+      </p>
+
+      <p class="subtitulo-lg">
+        Explore novas receitas todos os dias com os ingredientes que estão ao seu alcance!
+      </p>
     </div>
- <img src="../assets/images/foto-banner.png" alt="Foto do banner com uma mulher com uma caneca" class="foto-banner">
- </header>
+
+    <img src="../assets/imagens/foto-banner.png" alt="Foto de uma mulher cozinhando com uma bacia de vidro nas mãos. Ela está sorrindo e está apoiando um celular entre seu rosto e ombro." class="foto-banner">
+  </header>
 </template>
 
 <style scoped>
